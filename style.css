@@ -1,0 +1,96 @@
+a:link {
+    text-decoration: none;
+    color: #888888;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #888888;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.map_image {
+    background-image: url('JumpPage.jpg');
+
+    display: block;
+    width: 800px;
+    height: 600px;
+    position: relative;
+
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+.map_image .map_link {
+    display: block;
+    position: absolute;
+    text-indent: -999em;
+    overflow: hidden;
+}
+.map_image #map_link_0 {
+    width: 490px;
+    height: 100px;
+    top: 75px;
+    left: 155px;
+}
+.map_image #map_link_1 {
+    width: 137px;
+    height: 137px;
+    top: 246px;
+    left: 146px;
+    border-radius: 137px;
+}
+.map_image #map_link_2 {
+    width: 137px;
+    height: 137px;
+    top: 246px;
+    left: 331px;
+    border-radius: 137px;
+}
+.map_image #map_link_3 {
+    width: 137px;
+    height: 137px;
+    top: 246px;
+    left: 515px;
+    border-radius: 137px;
+}
+
+#map_link_0:hover,
+#map_link_1:hover,
+#map_link_2:hover,
+#map_link_3:hover {
+    box-shadow: 5px 5px 10px #000;
+    opacity: .2;
+    border-color: #0A0A2A;
+    border-style: solid;
+    border-width: 3px;
+}
+
+main {
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    position: relative;
+    display: block;
+}
+
+footer {
+    width: 800px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    display: block;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+#copyright {
+    color: #C5C5C5;
+    font-size: 10px;
+}
